@@ -50,7 +50,7 @@
         },
         fontWeight: {
           'regular': 400, 
-          'medium': 500, 
+          'medium': 600, 
         },
       },
     },

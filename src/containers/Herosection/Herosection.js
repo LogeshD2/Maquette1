@@ -14,7 +14,7 @@ export default function Herosection() {
             <div className="flex flex-1 items-center justify-center max-w-6xl w-full px-4">
                 {/* Section de texte */}
                 <div className="flex-1">
-                    <h1 className="text-neutral-d_grey text-headline-1 mb-4">
+                    <h1 className="text-neutral-d_grey text-headline-1 mb-4 font-medium">
                         Lessons and insights <span className="text-primary">from 8 years</span>
                     </h1>
                     <p className="text-neutral-d_grey font-regular text-body-2 mb-6">
