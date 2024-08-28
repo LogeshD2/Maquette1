@@ -15,7 +15,7 @@ export default function Herosection() {
                 {/* Section de texte */}
                 <div className="flex-1">
                     <h1 className="text-neutral-d_grey text-headline-1 mb-4 font-medium">
-                        Lessons and insights <span className="text-primary">from 8 years</span>
+                        Lessons and insights <p className="text-primary">from 8 years</p>
                     </h1>
                     <p className="text-neutral-d_grey font-regular text-body-2 mb-6">
                         Where to grow your business as a photographer: site or social media?
