@@ -43,24 +43,22 @@ export default function Ourclients() {
                 </div>
             </div>
 
-            <div className="flex justify-center mt-[50px]">
-                <div className="flex flex-1 items-center justify-center max-w-6xl w-full px-4">
-                    <div className="flex-shrink-0 ml-8">
-                        <img src={Frame35} alt="Icon3"></img>
-                    </div>
+            <div className="flex items-center justify-center p-8 bg-white gap-16">
+                <div className="w-1/4 flex justify-center">
+                    <img src={Frame35} alt="Icon3"></img>
+                </div>
 
-                    <div className="flex-1">
-                        <h1 className="text-neutral-d_grey text-headline-2 mb-4 font-medium">
-                            The unseen of spending three years at Pixelgrade
-                        </h1>
-                        <p className="text-neutral-grey font-regular text-body-3 mb-6">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. 
-                            Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. 
-                            Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. 
-                            Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
-                        </p>
-                        <Button label="Learn more"/>
-                    </div>
+                <div className="flex-1 max-w-lg">
+                    <h1 className="text-neutral-d_grey text-headline-2 mb-4 font-medium">
+                        The unseen of spending three years at Pixelgrade
+                    </h1>
+                    <p className="text-neutral-grey font-regular text-body-3 mb-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. 
+                        Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. 
+                        Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. 
+                        Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+                    </p>
+                    <Button label="Learn more" size="large"/>
                 </div>
             </div>
             

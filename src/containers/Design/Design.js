@@ -22,7 +22,7 @@ export default function Design() {
                             Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id 
                             gravida.
                         </p>
-                        <Button label="Learn more"/>
+                        <Button label="Learn more" size="large"/>
                     </div>
                 </div>
             </div>
