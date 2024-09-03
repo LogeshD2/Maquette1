@@ -7,19 +7,19 @@ import Icon7 from "../../assets/image/Icon7.png";
 export default function Helping() {
     return (
         <div className="flex justify-center bg-neutral-silver">
-            <div className="flex px-4 max-w-6xl w-full">
+            <div className="flex flex-col px-4 max-w-6xl w-full lg:flex-row">
                 
                 <div className="flex flex-col justify-center lg:w-1/2">
-                    <h1 className="text-neutral-d_grey text-headline-2 mb-4 font-medium">
-                        Helping a local <span className="text-primary">business reinvent itself</span>
+                    <h1 className="text-neutral-d_grey text-headline-2 mb-4 font-medium text-center lg:text-left">
+                        Helping a local <p className="text-primary">business reinvent itself</p>
                     </h1>
-                    <p className="text-[#18191F] font-regular text-body-2 mb-6">
+                    <p className="text-[#18191F] font-regular text-body-2 mb-6 text-center lg:text-left">
                         We reached here with our hard work and dedication
                     </p>
                 </div>
                 
-                <div className="flex-shrink-0 ml-8 lg:w-1/2">
-                    <div className="flex flex-wrap p-8 bg-white rounded-lg shadow-lg">                            
+                <div className="flex flex-shrink-0 lg:w-1/2">
+                    <div className="flex flex-wrap lg:p-8">                            
                         <div className="w-1/2 mb-4 flex items-center">
                             <img src={Icon4} alt="Icon4" className="mr-4"/>
                             <div>

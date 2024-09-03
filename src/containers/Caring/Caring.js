@@ -6,7 +6,7 @@ import Image3 from "../../assets/image/Image3.png"
 
 export default function Caring() {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen text-center">
+        <div className="flex flex-col items-center justify-center min-h-screen text-center px-4 lg:mt-[50px]">
             <h1 className="text-headline-2 text-neutral-d_grey font-medium">Caring is the new marketing</h1>
             <p className="font-regular text-body-2 mt-2 text-neutral-d_grey max-w-xl mx-auto">
                 The Nexcent blog is the best place to read about the latest membership insights, trends, and more. See who's joining the community, read about how our community is increasing their membership income and lots more.

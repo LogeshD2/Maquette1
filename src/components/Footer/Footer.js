@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../../assets/image/Logo1.png";
+import logo from "../../assets/image/LogoW.png";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 export default function Footer() {
     return (
         <footer className="bg-neutral-black text-white py-10">
-            <div className="container mx-auto grid grid-cols-4 px-8">
+            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-8">
                 <div>
                     <div className="flex items-center mb-4">
                         <img src={logo} alt="Nexcent Logo" className="mr-2" width="191" height="29.67" /> 

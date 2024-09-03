@@ -1,16 +1,24 @@
 import React from "react";
 import TeslaImg from "../../assets/image/Tesla.png";
-import Logos from "../../assets/image/Logos.png"
+import Logo1B from "../../assets/image/Logo1B.png";
+import Logo2 from "../../assets/image/Logo2.png";
+import Logo3 from "../../assets/image/Logo3.png";
+import Logo4 from "../../assets/image/Logo4.png";
+import Logo5 from "../../assets/image/Logo5.png";
+import Logo6 from "../../assets/image/Logo6.png";
+import Logo7 from "../../assets/image/Logo7.png";
+
+
 
 export default function Tesla() {
     return (
-        <div className="flex justify-center mt-[50px]">
-            <div className="flex flex-1 items-center justify-center max-w-6xl w-full px-4">
-                <div className="flex-shrink-0 ml-8 w-auto h-auto">
+        <div className="flex justify-center my-[50px]">
+            <div className="flex flex-1 flex-col items-center justify-center max-w-6xl w-full px-4 lg:flex-row lg:space-x-16">
+                <div className="flex-shrink-0 w-auto h-auto">
                     <img src={TeslaImg} alt="Icon3"></img>
                 </div>
 
-                <div className="flex-1 ml-8">
+                <div className="flex-1 text-center lg:text-left">
                     <p className="text-neutral-grey font-regular text-body-2 mb-6">
                         Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc 
                         varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse 
@@ -26,14 +34,22 @@ export default function Tesla() {
                         British Dragon Boat Racing Association
                     </p>
                     
-                    <div className="flex items-center">
-                        <img src={Logos} alt="Logos" className="mr-4" />
+                    <div className="mt-8 flex flex-col items-center space-y-4 lg:flex-row lg:space-x-8 lg:space-y-0">
+                        <div className="flex justify-around lg:justify-start lg:space-x-8 ">       
+                            <img src={Logo1B} alt="Logo 1 Blue"/>
+                            <img src={Logo2} alt="Logo 2" />
+                            <img src={Logo3} alt="Logo 3" />
+                            <img src={Logo4} alt="Logo 4" />
+                            <img src={Logo5} alt="Logo 5" />
+                            <img src={Logo6} alt="Logo 6" />
+                        </div>
+                        
                         <p class="text-primary text-headline-4 font-regular cursor-pointer whitespace-nowrap">
                             Meet all customers &rarr;
                         </p>
-
                     </div>
 
+                  
 
                 </div>
             </div>
