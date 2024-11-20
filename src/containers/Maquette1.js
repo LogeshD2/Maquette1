@@ -1,18 +1,18 @@
-import React from 'react';
-import Header from '../components/Header/Header';
-import Herosection from './Herosection/Herosection';
-import Ourclients from './Ourclients/Ourclients';
-import Helping from './Helping/Helping';
-import Design from './Design/Design';
-import Telsa from './Tesla/Tesla';
-import Caring from './Caring/Caring';
-import Pellantesque from './Pellantesque/Pellantesque';
-import Footer from '../components/Footer/Footer';
+import React from "react";
+import Header from "../components/Header/Header";
+import Herosection from "./Herosection/Herosection";
+import Ourclients from "./Ourclients/Ourclients";
+import Helping from "./Helping/Helping";
+import Design from "./Design/Design";
+import Telsa from "./Tesla/Tesla";
+import Caring from "./Caring/Caring";
+import Pellantesque from "./Pellantesque/Pellantesque";
+import Footer from "../components/Footer/Footer";
+import Test from "./Test/test";
 
 export default function Maquette1() {
   return (
     <div className="flex flex-col min-h-screen">
-
       <header className="flex-shrink-0">
         <Header />
       </header>
@@ -25,6 +25,7 @@ export default function Maquette1() {
         <Telsa />
         <Caring />
         <Pellantesque />
+        <Test />
       </main>
 
       <footer className="flex-shrink-0">
